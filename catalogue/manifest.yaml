@@ -39,7 +39,7 @@ spec:
         image: mohammadmunna1234/catalogue:v1
         envFrom:
          - configMapRef:
-           name: catalogue
+            name: catalogue
 ---
 apiVersion: v1
 kind: Service
